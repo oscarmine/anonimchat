@@ -10,8 +10,11 @@ const messageMap = new Map();
 bot.on('message', async (msg) => {
     const chatId = msg.chat.id;
 
-    // Ignore bot commands
-    if (msg.text && msg.text.startsWith('/')) return;
+    // Greating
+    if (msg.text && msg.text === '/start') {
+        bot.sendMessage(chatId, `Hi ${msg.from.first_name}! 👋\nIf you have any questions, just send them here.`)
+        return;
+    }
 
     // Handle user messages
     if (chatId.toString() !== adminId.toString()) {
