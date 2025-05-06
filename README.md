@@ -31,7 +31,7 @@ npm install node-telegram-bot-api
 node index.mjs
 ```
 # ⚠️ Important
-## Don’t forget to set your own bot token and admin chat ID in index.js before running!
+## Don’t forget to set your own bot token and chat ID in index.mjs before running!
 Open index.mjs and change these lines:
 ```javascript
 const token = 'BOT_TOKEN';   // Replace with your bot token
