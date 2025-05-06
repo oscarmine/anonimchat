@@ -32,7 +32,6 @@ node index.mjs
 ```
 # ⚠️ Important
 ## Don’t forget to set your own bot token and admin chat ID in index.js before running!
-
 ### Open index.js and change these lines:
 ```javascript
 const token = 'BOT_TOKEN';   // Replace with your bot token
