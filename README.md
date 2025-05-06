@@ -19,7 +19,7 @@ Users send messages — the bot forwards them to the admin. When the admin repli
 
 ```bash
 # Clone the repo
-git clone https://github.com/your-username/anonimchat.git
+git clone https://github.com/oscarmine/anonimchat.git
 
 # Go into the project folder
 cd anonimchat
