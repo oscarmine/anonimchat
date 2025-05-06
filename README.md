@@ -25,6 +25,7 @@ git clone https://github.com/oscarmine/anonimchat.git
 cd anonimchat
 
 # Install the required package
+npm init -y
 npm install node-telegram-bot-api
 
 # Run the bot
